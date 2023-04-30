@@ -1132,7 +1132,7 @@ function DiscordLib:Window(text)
 	CurrentSettingOpen.Position = UDim2.new(1.07294846, 0, 0.0450000018, 0)
 	CurrentSettingOpen.Size = UDim2.new(0, 65, 0, 19)
 	CurrentSettingOpen.Font = Enum.Font.GothamBlack
-	CurrentSettingOpen.Text = "MY ACCOUNT"
+	CurrentSettingOpen.Text = "My Account"
 	CurrentSettingOpen.TextColor3 = Color3.fromRGB(255, 255, 255)
 	CurrentSettingOpen.TextSize = 14.000
 	CurrentSettingOpen.TextXAlignment = Enum.TextXAlignment.Left

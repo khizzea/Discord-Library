@@ -1098,23 +1098,6 @@ function DiscordLib:Window(text)
 	MyAccountBtnTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
 	MyAccountBtnTitle.TextSize = 14.000
 	MyAccountBtnTitle.TextXAlignment = Enum.TextXAlignment.Left
-	
-        MyAccountBtnCorner.CornerRadius = UDim.new(0, 7)
-	MyAccountBtnCorner.Name = "UserInfoBtnCorner"
-	MyAccountBtnCorner.Parent = UserInfoBtn
-	
-	MyAccountBtnTitle.Name = "UserInfoBtnCorner"
-	MyAccountBtnTitle.Parent = UserInfoBtn
-	MyAccountBtnTitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	MyAccountBtnTitle.BackgroundTransparency = 1.000
-	MyAccountBtnTitle.BorderSizePixel = 0
-	MyAccountBtnTitle.Position = UDim2.new(0.0759999976, 0, -0.166999996, 0)
-	MyAccountBtnTitle.Size = UDim2.new(0, 95, 0, 39)
-	MyAccountBtnTitle.Font = Enum.Font.GothamSemibold
-	MyAccountBtnTitle.Text = "User Info"
-	MyAccountBtnTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
-	MyAccountBtnTitle.TextSize = 14.000
-	MyAccountBtnTitle.TextXAlignment = Enum.TextXAlignment.Left
 
 	SettingsTitle.Name = "SettingsTitle"
 	SettingsTitle.Parent = LeftFrame
@@ -1135,7 +1118,7 @@ function DiscordLib:Window(text)
 	DiscordInfo.Position = UDim2.new(0.304721028, 0, 0.821333349, 0)
 	DiscordInfo.Size = UDim2.new(0, 133, 0, 44)
 	DiscordInfo.Font = Enum.Font.Gotham
-	DiscordInfo.Text = "Stable 1.0.0 (00001)  Host 0.0.0.1                Roblox Lua Engine      Made By Angel?#4183"
+	DiscordInfo.Text = "Stable 1.0.0 (00001)  Host 0.0.0.1  Roblox Lua Engine  Made By Angel?#4183"
 	DiscordInfo.TextColor3 = Color3.fromRGB(101, 108, 116)
 	DiscordInfo.TextSize = 13.000
 	DiscordInfo.TextWrapped = true

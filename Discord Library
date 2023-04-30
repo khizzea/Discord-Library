@@ -1094,8 +1094,7 @@ function DiscordLib:Window(text)
 	MyAccountBtnTitle.Position = UDim2.new(0.0759999976, 0, -0.166999996, 0)
 	MyAccountBtnTitle.Size = UDim2.new(0, 95, 0, 39)
 	MyAccountBtnTitle.Font = Enum.Font.GothamSemibold
-	MyAccountBtnTitle.Text = "
-  "
+	MyAccountBtnTitle.Text = "My Account"
 	MyAccountBtnTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
 	MyAccountBtnTitle.TextSize = 14.000
 	MyAccountBtnTitle.TextXAlignment = Enum.TextXAlignment.Left
